@@ -4,13 +4,11 @@ This project aims at showing a web application I developped to merge fashion ad 
 2. Using GEMMA to summarize the combined prompt (ex: "*foto_5*"'s person, "*foto_1*"'s clothes and "*foto_3*"'s scenario) into a maximum of 55 words (approx 77 tokens)
 3. Inputing the summarized prompt into FLUX and generating an image
 
-<br>
 I did not publish my angular code. I did however commit all the python notebooks and APIs for anyone that whishes to copy or use them. All the notebooks are correctly commented and very straightforward to use.  
 
-<br>
 🎬 Here you can access a demo of the angular app (total of **3mins**, but recommended to play it a 1.5 speed):
 
-<a href="https://youtu.be/LkixjV7Zq2M"><img src="assets/IOG.png" alt="HTML tutorial"></a>
+<a href="https://youtu.be/t_nADrWsZ7M"><img src="assets/PeopleMergerApp.png" alt="HTML tutorial"></a>
 
 
 ## Previous requirements
