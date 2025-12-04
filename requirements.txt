@@ -1,0 +1,37 @@
+# Python 3.12
+
+# pytorch --> pip install torch==2.9.0 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/cu128
+
+
+# normal
+ipykernel
+ipywidgets
+ninja
+packaging
+transformers
+xformers 
+accelerate
+diffusers
+triton-windows
+huggingface_hub
+protobuf
+sentenpiece
+safetensors
+nunchaku
+fastapi
+uvicorn
+#
+realesrgan 
+# and change file  "c:\Users\A200348545\AppData\Local\anaconda3\envs\bannerg\Lib\site-packages\basicsr\data\degradations.py:8" : 
+# [from torchvision.transforms.functional_tensor import rgb_to_grayscale --> [from torchvision.transforms import functional as F]
+# [img_gray = rgb_to_grayscale(img, num_output_channels=1)] -> [img_gray = F.rgb_to_grayscale(img, num_output_channels=1)]
+
+
+# !!!!!!!!!!!!!!!!!INSTALLING FLASH-ATTENTION!!!!!!!!
+# install it with the prebuilt wheel here --> https://huggingface.co/Wildminder/AI-windows-whl/tree/mainhttps://huggingface.co/Wildminder/AI-windows-whl/tree/main
+
+
+# !!!!!! NUNCHAKU FOR FLUX 
+# https://nunchaku.tech/docs/nunchaku/installation/installation.html
+# https://nunchaku.tech/docs/nunchaku/usage/basic_usage.html
+
