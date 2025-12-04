@@ -49,7 +49,7 @@ model = model.to(device)
 
 
 ############################################################
-# 2. Loading FLUX (glups) 
+# 2. Loading FLUX 
 print("Loading Flux...")
 from diffusers import FluxPipeline
 from nunchaku import NunchakuFluxTransformer2dModel
@@ -64,7 +64,7 @@ def clean_cache():
 precision = get_precision()  # auto-detect your precision is 'int4' or 'fp4' based on your GPU
 is_loaded_flux = False
 print("Loading Transformer...")
-for i in range(10):
+for i in range(10): # Trying to load it at least 10 times because you often need to refresh cache memory
     print("Try number: ", i, " ...")
     if is_loaded_flux:
         break
